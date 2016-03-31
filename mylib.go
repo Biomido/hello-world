@@ -7,6 +7,7 @@ type Ort struct {
     Ref1 *Ort
     Ref2 *Ort
     id int
+    zeit int
 }
 
 func PrintRef1 (x Ort){
