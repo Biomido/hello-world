@@ -6,6 +6,7 @@ type Ort struct {
     Bez string
     Ref1 *Ort
     Ref2 *Ort
+    id int
 }
 
 func PrintRef1 (x Ort){
