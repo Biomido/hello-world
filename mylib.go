@@ -2,6 +2,10 @@ package mylib
 
 import ( "fmt")
 
+/*
+	just a test.. no real use
+*/
+
 type Ort struct {
     Bez string
     Ref1 *Ort
